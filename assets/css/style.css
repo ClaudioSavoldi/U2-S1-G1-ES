@@ -74,7 +74,7 @@ section h2 {
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 h1 {
-  font-size: 2.9rem;
+  font-size: 3.6rem;
   font-weight: bold;
   letter-spacing: -0.03em;
   margin-bottom: 0.7em;
@@ -223,4 +223,113 @@ footer a {
   border: solid #900080 3px;
   width: 66px;
   height: 66px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+
+  table {
+    width: auto; /* si riduce alla dimensione del contenuto */
+    margin: 0 auto;
+    margin-block: 80px;
+  }
+
+  input {
+    width: 600px;
+    height: 40px;
+  }
+
+  button {
+    height: 40px;
+    padding-inline: 25px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    padding-inline: 100px;
+  }
+  header {
+    overflow: hidden;
+    padding: 10px;
+  }
+  header div img,
+  header div p {
+    float: left;
+    margin: 0px;
+  }
+  header div p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+  }
+  nav {
+    margin-top: 15px;
+    margin-right: 20px;
+    float: right;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  #primoP {
+    margin-top: 10px;
+  }
+
+  #tableConteiener {
+    padding-inline: 200px;
+    text-align: center;
+  }
+  table {
+    width: 100%;
+  }
+
+  #bloccoVideoNov {
+    text-align: center;
+  }
+
+  #bloccoVideoNov iframe {
+    display: inline-block;
+    width: 45%;
+    height: 250px;
+  }
+  #bloccoVideoNov section {
+    display: inline-block;
+    width: 50%;
+    height: 250px;
+    padding: 20px;
+    margin-left: -5px;
+    border-radius: 20px;
+  }
+  iframe,
+  #bloccoVideoNov section {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  input {
+    width: 400px;
+    height: 40px;
+    text-align: left;
+  }
+
+  #bloccoVideoNov section p {
+    text-align: left;
+    margin-top: 40px;
+  }
+  aside {
+    text-align: center;
+  }
+  aside div {
+    display: inline-block;
+    width: 33%;
+    margin-inline: -6px;
+    text-align: left;
+  }
 }
